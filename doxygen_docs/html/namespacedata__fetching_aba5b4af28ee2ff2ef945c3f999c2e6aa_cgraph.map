@@ -1,0 +1,5 @@
+<map id="data_fetching.get_present_weather" name="data_fetching.get_present_weather">
+<area shape="rect" id="node1" title="Get present weather data and save to future.csv." alt="" coords="5,39,176,80"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#a35a3c2fb33ecf86ce43f58d53e55fde9" title="Update global time and time dependent variables." alt="" coords="227,5,369,47"/>
+<area shape="rect" id="node3" href="$namespacedata__fetching.html#aa79fab7f5590f97c5cfbeec4f7f21f49" title="API call to OpenWeather.com." alt="" coords="224,71,372,112"/>
+</map>

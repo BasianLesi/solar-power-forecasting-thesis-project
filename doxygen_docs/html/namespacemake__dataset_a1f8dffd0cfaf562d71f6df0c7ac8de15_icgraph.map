@@ -1,0 +1,4 @@
+<map id="make_dataset.normalize_column" name="make_dataset.normalize_column">
+<area shape="rect" id="node1" title="Normalizes specified index columb." alt="" coords="197,5,361,47"/>
+<area shape="rect" id="node2" href="$namespacemake__dataset.html#aef1fc45346aa31dd0c518ad36f36fd67" title="Imports data from raw data directory preprocesses data, extracts features and generates data for mode..." alt="" coords="5,5,149,47"/>
+</map>

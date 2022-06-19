@@ -1,0 +1,8 @@
+<map id="train_model.Model.train" name="train_model.Model.train">
+<area shape="rect" id="node1" title="Model training." alt="" coords="5,111,163,138"/>
+<area shape="rect" id="node2" href="$namespacetrain__model.html#abbb3d65f1543c68690a14de90b02f53a" title="Bayesian optimization &#45; used to find the best parameters for the model (20 best models are saved)" alt="" coords="236,5,381,47"/>
+<area shape="rect" id="node3" href="$classtrain__model_1_1_model.html#a55338083ce9c1815aec72fd593b52fe1" title="Trained model benchmark on test data." alt="" coords="211,71,407,112"/>
+<area shape="rect" id="node5" href="$namespacetrain__model.html#ad5534da0a345636f5fa660ca76ea4801" title="Helper function &#45; Creates directory if it does not exist." alt="" coords="237,136,381,177"/>
+<area shape="rect" id="node6" href="$classtrain__model_1_1_model.html#af2466420b3c25a1ac1bed8befbddcbe2" title="Save trained model in h5 format." alt="" coords="229,201,388,243"/>
+<area shape="rect" id="node4" href="$namespacetrain__model.html#a46413ba900314a091387dc211b1cb16a" title="Normalize target value &#45; used by benchmark for the predicted and actual values." alt="" coords="455,71,589,112"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="predict_model.load_model_from_json" name="predict_model.load_model_from_json">
+<area shape="rect" id="node1" title="Load specified model by name from models_dir." alt="" coords="207,29,337,71"/>
+<area shape="rect" id="node2" href="$namespacepredict__model.html#a3fa9f6807b8e41c2fd9e8c3a16b9d005" title="Load model and Data and start the PV power prediction." alt="" coords="5,29,159,71"/>
+</map>

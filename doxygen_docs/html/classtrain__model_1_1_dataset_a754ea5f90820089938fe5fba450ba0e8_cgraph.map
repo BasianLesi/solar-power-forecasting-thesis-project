@@ -1,0 +1,5 @@
+<map id="train_model.Dataset.__init__" name="train_model.Dataset.__init__">
+<area shape="rect" id="node1" title="Object initialization." alt="" coords="5,5,148,47"/>
+<area shape="rect" id="node2" href="$classtrain__model_1_1_dataset.html#ab08055ac3ae9be90ff357bb3adc49cbf" title="split data into train, validation and test sets" alt="" coords="196,13,395,39"/>
+<area shape="rect" id="node3" href="$classtrain__model_1_1_dataset.html#a17f4dc9d326607d930df90c705fbfc87" title="Generate input and target numpy arrays from dataframe." alt="" coords="443,5,595,47"/>
+</map>

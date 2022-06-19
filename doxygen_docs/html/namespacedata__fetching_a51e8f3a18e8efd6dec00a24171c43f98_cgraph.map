@@ -1,0 +1,4 @@
+<map id="data_fetching.get_past_weather" name="data_fetching.get_past_weather">
+<area shape="rect" id="node1" title="Get past weather data and save to past.csv." alt="" coords="5,5,159,47"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#aa79fab7f5590f97c5cfbeec4f7f21f49" title="API call to OpenWeather.com." alt="" coords="207,5,355,47"/>
+</map>

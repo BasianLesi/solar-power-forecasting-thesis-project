@@ -1,0 +1,6 @@
+<map id="data_fetching.update_global_variables" name="data_fetching.update_global_variables">
+<area shape="rect" id="node1" title="Update global time and time dependent variables." alt="" coords="629,29,772,71"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#aba5b4af28ee2ff2ef945c3f999c2e6aa" title="Get present weather data and save to future.csv." alt="" coords="411,29,581,71"/>
+<area shape="rect" id="node3" href="$namespacedata__fetching.html#aa956eec01409c855b14c09613c333bdb" title="Update past, present and future data." alt="" coords="188,37,363,63"/>
+<area shape="rect" id="node4" href="$namespacedata__fetching.html#a78bfaaa4008b2f8e347e16d3828eb5e7" title="Process and normalize fetched data to be ready for forecasting model input." alt="" coords="5,29,140,71"/>
+</map>

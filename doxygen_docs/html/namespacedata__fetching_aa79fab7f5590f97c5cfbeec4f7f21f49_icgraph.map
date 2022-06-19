@@ -1,0 +1,8 @@
+<map id="data_fetching.weather_api_call" name="data_fetching.weather_api_call">
+<area shape="rect" id="node1" title="API call to OpenWeather.com." alt="" coords="629,71,777,112"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#a890d691f78f5928aa95b0d91d8a1d3b9" title="Get future weather forecasting data and save to future.csv." alt="" coords="416,5,576,47"/>
+<area shape="rect" id="node5" href="$namespacedata__fetching.html#a51e8f3a18e8efd6dec00a24171c43f98" title="Get past weather data and save to past.csv." alt="" coords="419,71,573,112"/>
+<area shape="rect" id="node6" href="$namespacedata__fetching.html#aba5b4af28ee2ff2ef945c3f999c2e6aa" title="Get present weather data and save to future.csv." alt="" coords="411,136,581,177"/>
+<area shape="rect" id="node3" href="$namespacedata__fetching.html#aa956eec01409c855b14c09613c333bdb" title="Update past, present and future data." alt="" coords="188,78,363,105"/>
+<area shape="rect" id="node4" href="$namespacedata__fetching.html#a78bfaaa4008b2f8e347e16d3828eb5e7" title="Process and normalize fetched data to be ready for forecasting model input." alt="" coords="5,71,140,112"/>
+</map>

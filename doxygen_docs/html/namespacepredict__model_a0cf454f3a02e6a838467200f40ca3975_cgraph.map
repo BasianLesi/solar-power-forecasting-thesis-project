@@ -1,0 +1,4 @@
+<map id="predict_model.add_day_sin_cos_and_normalize" name="predict_model.add_day_sin_cos_and_normalize">
+<area shape="rect" id="node1" title="Add sine and cosine to seconds of day and normalize dataframe." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node2" href="$namespacepredict__model.html#af1d9d72594c5b71d4b571dc0bfcd3ecd" title="Normalize dataframe column on range[a,b]." alt="" coords="219,5,381,47"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="predict_model.add_day_sin_cos_and_normalize" name="predict_model.add_day_sin_cos_and_normalize">
+<area shape="rect" id="node1" title="Add sine and cosine to seconds of day and normalize dataframe." alt="" coords="401,29,567,71"/>
+<area shape="rect" id="node2" href="$namespacepredict__model.html#ad3df9ede167f00a115d48c7a0cebe44d" title="Function to make PV power predictions for a period of the available forecast weather data &#160;&#160;predictio..." alt="" coords="207,29,353,71"/>
+<area shape="rect" id="node3" href="$namespacepredict__model.html#a3fa9f6807b8e41c2fd9e8c3a16b9d005" title="Load model and Data and start the PV power prediction." alt="" coords="5,29,159,71"/>
+</map>

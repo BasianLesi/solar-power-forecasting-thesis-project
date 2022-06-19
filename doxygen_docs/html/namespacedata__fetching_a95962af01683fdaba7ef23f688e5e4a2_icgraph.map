@@ -1,0 +1,4 @@
+<map id="data_fetching.normalize_column" name="data_fetching.normalize_column">
+<area shape="rect" id="node1" title="Normalize dataframe column on range[a,b]." alt="" coords="188,29,347,71"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#a78bfaaa4008b2f8e347e16d3828eb5e7" title="Process and normalize fetched data to be ready for forecasting model input." alt="" coords="5,29,140,71"/>
+</map>

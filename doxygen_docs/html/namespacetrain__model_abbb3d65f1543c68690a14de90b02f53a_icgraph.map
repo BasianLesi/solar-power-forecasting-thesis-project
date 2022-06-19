@@ -1,0 +1,4 @@
+<map id="train_model.bayesian_optimization" name="train_model.bayesian_optimization">
+<area shape="rect" id="node1" title="Bayesian optimization &#45; used to find the best parameters for the model (20 best models are saved)" alt="" coords="211,5,356,47"/>
+<area shape="rect" id="node2" href="$classtrain__model_1_1_model.html#a6cab1f650c762c94568a667ee73b013b" title="Model training." alt="" coords="5,13,163,39"/>
+</map>

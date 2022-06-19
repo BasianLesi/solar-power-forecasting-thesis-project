@@ -1,8 +1,21 @@
+##
+# @package visualization - Visualization functions
+# 
+#
+
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.metrics import mean_squared_error as mse
 from config import *
 
+## Plots model predictions vs actual values
+#
+#   @param df_pred:pd.Dataframe - dataframe with the actual and predicted values
+#   @param model:Model  - Model object
+#
+#   @note - Generated plots are saved in figures_dir specified in config.py module
+#
+#   @return None 
 def plot_predictions(df_pred:pd.DataFrame, model, start:int=0, end:int=400):
   pred:str = "Predicted_"+model.target
   actual:str = "Actual_"+model.target
@@ -17,7 +30,14 @@ def plot_predictions(df_pred:pd.DataFrame, model, start:int=0, end:int=400):
   plt.show()
   plt.clf() 
   
-
+## Plots model history - Training vs Validation loss and RMSE
+#
+#   @param df_pred:pd.Dataframe - dataframe with the actual and predicted values
+#   @param model:Model  - Model object
+#
+#   @note - Generated plots are saved in figures_dir specified in config.py module
+#
+#   @return None 
 def plot_model_history(model):
     plt.plot(model.model_history.history['loss'], 'g', label='Training loss')
     plt.plot(model.model_history.history['val_loss'], 'b', label='Validation loss')

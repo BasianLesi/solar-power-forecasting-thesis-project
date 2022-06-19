@@ -1,0 +1,10 @@
+<map id="predict_model.forecast_PV_power" name="predict_model.forecast_PV_power">
+<area shape="rect" id="node1" title="Load model and Data and start the PV power prediction." alt="" coords="5,72,159,113"/>
+<area shape="rect" id="node2" href="$namespacepredict__model.html#a36e296ad14217113649ee607bc992025" title="Load specified model by name from models_dir." alt="" coords="215,39,345,80"/>
+<area shape="rect" id="node3" href="$namespacepredict__model.html#ad3df9ede167f00a115d48c7a0cebe44d" title="Function to make PV power predictions for a period of the available forecast weather data &#160;&#160;predictio..." alt="" coords="207,104,353,145"/>
+<area shape="rect" id="node4" href="$namespacepredict__model.html#a0cf454f3a02e6a838467200f40ca3975" title="Add sine and cosine to seconds of day and normalize dataframe." alt="" coords="401,5,567,47"/>
+<area shape="rect" id="node6" href="$namespacepredict__model.html#a8c4c28570984c6f90ba3c80404a67987" title="Add sine and cosine to seconds of day and normalize dataframe." alt="" coords="411,71,557,112"/>
+<area shape="rect" id="node7" href="$namespacepredict__model.html#ae7aadb62804688d5d4266f2d58e017ef" title="Predict next hour of the target feature." alt="" coords="411,136,557,177"/>
+<area shape="rect" id="node8" href="$namespacepredict__model.html#a311fd2d56b10ec99d350fb623c111ac8" title="Reverse normalize dataframe column from past range[a,b]." alt="" coords="410,201,558,243"/>
+<area shape="rect" id="node5" href="$namespacepredict__model.html#af1d9d72594c5b71d4b571dc0bfcd3ecd" title="Normalize dataframe column on range[a,b]." alt="" coords="615,5,777,47"/>
+</map>
