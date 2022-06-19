@@ -33,8 +33,8 @@ def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
     ''' Imports data from raw data directory preprocesses data, extracts features and generates
     data for model training.
     
-    :param intput_filepath (str): string path to raw data directory
-    :param output_filepath (str): string path to output directory
+    :param intput_filepath: string path to raw data directory
+    :param output_filepath: string path to output directory
     
     :Generated files:
     
@@ -88,7 +88,9 @@ def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
     df = df.merge(da_prices,      on="Time", how="left")
 
     df.index = pd.to_datetime(df['Time'], format='%d-%m-%Y %H:%M')
-    handle_nan_values(df)
+    for i in range(len(df.columns)):
+        handle_nan_values(df, i)
+    df.dropna(inplace = True)
     
     df['Seconds'] = df.index.map(pd.Timestamp.timestamp)
     day = 60*60*24
@@ -163,9 +165,6 @@ def check_nan_values(df:pd.DataFrame, col:int=1):
     return False
 
 def handle_nan_values(df: pd.DataFrame, col:int = 1):
-    
-    
-    
     col_name = df.columns[col]
         
     if FILL_NAN_WITH_ZERO:
