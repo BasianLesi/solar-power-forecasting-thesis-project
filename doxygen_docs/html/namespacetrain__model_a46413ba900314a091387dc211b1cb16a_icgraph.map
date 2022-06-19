@@ -1,0 +1,5 @@
+<map id="train_model.reverse_normalize" name="train_model.reverse_normalize">
+<area shape="rect" id="node1" title="Normalize target value &#45; used by benchmark for the predicted and actual values." alt="" coords="455,5,589,47"/>
+<area shape="rect" id="node2" href="$classtrain__model_1_1_model.html#a55338083ce9c1815aec72fd593b52fe1" title="Trained model benchmark on test data." alt="" coords="211,5,407,47"/>
+<area shape="rect" id="node3" href="$classtrain__model_1_1_model.html#a6cab1f650c762c94568a667ee73b013b" title="Model training." alt="" coords="5,13,163,39"/>
+</map>

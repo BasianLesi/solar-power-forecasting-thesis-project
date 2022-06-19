@@ -1,0 +1,4 @@
+<map id="train_model.Model.save_model" name="train_model.Model.save_model">
+<area shape="rect" id="node1" title="Save trained model in h5 format." alt="" coords="211,5,369,47"/>
+<area shape="rect" id="node2" href="$classtrain__model_1_1_model.html#a6cab1f650c762c94568a667ee73b013b" title="Model training." alt="" coords="5,13,163,39"/>
+</map>

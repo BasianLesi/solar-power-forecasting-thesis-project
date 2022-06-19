@@ -1,0 +1,4 @@
+<map id="train_model.Dataset.split_data" name="train_model.Dataset.split_data">
+<area shape="rect" id="node1" title="split data into train, validation and test sets" alt="" coords="5,13,204,39"/>
+<area shape="rect" id="node2" href="$classtrain__model_1_1_dataset.html#a17f4dc9d326607d930df90c705fbfc87" title="Generate input and target numpy arrays from dataframe." alt="" coords="252,5,404,47"/>
+</map>

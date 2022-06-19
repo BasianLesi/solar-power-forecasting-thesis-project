@@ -1,0 +1,5 @@
+<map id="make_dataset.handle_nan_values" name="make_dataset.handle_nan_values">
+<area shape="rect" id="node1" title="Handles NaN values with a method depending on the set flag." alt="" coords="409,5,556,47"/>
+<area shape="rect" id="node2" href="$namespacemake__dataset.html#aef1fc45346aa31dd0c518ad36f36fd67" title="Imports data from raw data directory preprocesses data, extracts features and generates data for mode..." alt="" coords="217,5,361,47"/>
+<area shape="rect" id="node3" href="$namespacemake__dataset.html#a1f8dffd0cfaf562d71f6df0c7ac8de15" title="Normalizes specified index columb." alt="" coords="5,5,169,47"/>
+</map>

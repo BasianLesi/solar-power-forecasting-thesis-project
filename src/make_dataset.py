@@ -1,13 +1,6 @@
-'''
-This module is used to preprocess the raw data 
-   
-    1. Load the raw data
-    2. Check and handle NaN values
-    3. Fix the data frequency to be hourly
-    4. Merge and normalize data
-    5. Save data to processed data directory
-'''
-
+##
+# @package make_dataset - Module for data preprocessing and feature extraction
+#
 
 import pandas as pd
 import numpy as np
@@ -28,25 +21,18 @@ DELETE_NAN_ROWS = False
 REPLACE_WITH_PREVIOUS_DAY = False
 LINEAR_REGRESSION = True
 
-
+## Imports data from raw data directory preprocesses data, extracts features and generates data for model training.
+#
+#   @param input_filepath:str   string path to raw data directory
+#   @param output_filepath:str  string path to output directory
+#   @par Generated files:
+#    
+#       :merged.csv, merged_norm.csv: - Full dataset merged , normalized
+#       :pv.csv, pv_norm: - dataset with features required for PV model training
+#       :wp.csv, wp_norm: - dataset with features required for Wind model training / normalized
+#
+# @return None
 def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
-    ''' Imports data from raw data directory preprocesses data, extracts features and generates
-    data for model training.
-    
-    :param intput_filepath: string path to raw data directory
-    :param output_filepath: string path to output directory
-    
-    :Generated files:
-    
-        :merged.csv, merged_norm.csv: - Full dataset merged , normalized
-    
-        :pv.csv, pv_norm: - dataset with features required for PV model training
-
-        :wp.csv, wp_norm: - dataset with features required for Wind model training / normalized
-            
-
-    :return: None 
-    '''
     log("def import_and_merge_data")
     
     try:
@@ -64,7 +50,7 @@ def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
     
     
     pv_power_gen.rename(columns = {'Photovoltaic':'PV power'}, inplace = True)
-    radiation.rename(columns = {'solar radiation - 5 min grouping - median':'Solar radiation'}, inplace = True)
+    radiation.rename(columns = {'solar radiation':'Solar radiation'}, inplace = True)
     temperature.rename(columns = {'Temperature - 5 min grouping - median':'Temperature'}, inplace = True)
     windspeed.rename(columns = {'Wind speed - 5 min grouping - median':'Wind speed'}, inplace = True)
     wind_power_gen.rename(columns = {'Wind':'Wind power'}, inplace = True)
@@ -101,7 +87,7 @@ def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
     df = df.drop('Seconds', axis=1)
     df = df.drop('Time', axis=1)
     
-    df_pv = df[["Temperature","solar radiation","PV power","Day sin","Day cos"]].copy()
+    df_pv = df[["Temperature","Solar radiation","PV power","Day sin","Day cos"]].copy()
     df_wp = df[["Temperature","Wind speed","Wind power","Day sin","Day cos"]].copy()
     
     try:
@@ -153,7 +139,14 @@ def import_and_merge_data(input_filepath:str, output_filepath:str)-> None:
     
     return None   
 
-def check_nan_values(df:pd.DataFrame, col:int=1):
+
+## Checks if specified column of dataframe contains any NaN values
+#
+#   @param df:pd.Dataframe - dataframe to be iterated
+#   @param col:int  column - index to check for nan values
+#
+#   @return bool - True if any nan values are found, False otherwise
+def check_nan_values(df:pd.DataFrame, col:int=1)->bool:
     col_name = df.columns[col]
         
     for i in df[col_name]:
@@ -164,7 +157,13 @@ def check_nan_values(df:pd.DataFrame, col:int=1):
     log("df does not contain NaN values")
     return False
 
-def handle_nan_values(df: pd.DataFrame, col:int = 1):
+## Handles NaN values with a method depending on the set flag
+#
+#   @param df:pd.Dataframe - dataframe to be processed
+#   @param col:int  - index of column to be processed
+#
+# @return pd.Dataframe - processed dataframe
+def handle_nan_values(df: pd.DataFrame, col:int = 1)->pd.DataFrame:
     col_name = df.columns[col]
         
     if FILL_NAN_WITH_ZERO:
@@ -191,7 +190,14 @@ def handle_nan_values(df: pd.DataFrame, col:int = 1):
                 df.at[i, col_name] = df.iloc[j-a*24][col_name]*random.uniform(0.95, 1.05)  #replace and add 10% noise
                 j+=1
 
-def normalize_column(df:pd.DataFrame, col:int=1, a:int=0, b:int=1):
+## Normalizes specified index columb.
+#
+#   @param df:pd.Dataframe - dataframe to be iterated
+#   @param col:int  - index to check for nan values
+#   @param a:int - 
+#
+# @return pd.Dataframe - dataframe with normalized column
+def normalize_column(df:pd.DataFrame, col:int=1, a:int=0, b:int=1)->pd.DataFrame:
     col_name = df.columns[col]
     df[col_name] = (df[col_name] - df[col_name].min())/(df[col_name].max() - df[col_name].min())
     df[col_name] = (b-a)*df[col_name]+a 
@@ -199,21 +205,3 @@ def normalize_column(df:pd.DataFrame, col:int=1, a:int=0, b:int=1):
 
 if __name__ == '__main__':
     import_and_merge_data(raw_data_dir, processed_data_dir)
-     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

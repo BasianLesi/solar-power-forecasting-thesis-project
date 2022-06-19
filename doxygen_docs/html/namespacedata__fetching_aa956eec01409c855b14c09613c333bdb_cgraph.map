@@ -1,0 +1,8 @@
+<map id="data_fetching.update_data" name="data_fetching.update_data">
+<area shape="rect" id="node1" title="Update past, present and future data." alt="" coords="5,78,180,105"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#a890d691f78f5928aa95b0d91d8a1d3b9" title="Get future weather forecasting data and save to future.csv." alt="" coords="233,5,393,47"/>
+<area shape="rect" id="node4" href="$namespacedata__fetching.html#a51e8f3a18e8efd6dec00a24171c43f98" title="Get past weather data and save to past.csv." alt="" coords="237,71,390,112"/>
+<area shape="rect" id="node5" href="$namespacedata__fetching.html#aba5b4af28ee2ff2ef945c3f999c2e6aa" title="Get present weather data and save to future.csv." alt="" coords="228,136,399,177"/>
+<area shape="rect" id="node3" href="$namespacedata__fetching.html#aa79fab7f5590f97c5cfbeec4f7f21f49" title="API call to OpenWeather.com." alt="" coords="447,71,595,112"/>
+<area shape="rect" id="node6" href="$namespacedata__fetching.html#a35a3c2fb33ecf86ce43f58d53e55fde9" title="Update global time and time dependent variables." alt="" coords="449,136,592,177"/>
+</map>

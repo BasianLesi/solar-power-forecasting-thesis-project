@@ -1,0 +1,4 @@
+<map id="data_fetching.update_data" name="data_fetching.update_data">
+<area shape="rect" id="node1" title="Update past, present and future data." alt="" coords="188,37,363,63"/>
+<area shape="rect" id="node2" href="$namespacedata__fetching.html#a78bfaaa4008b2f8e347e16d3828eb5e7" title="Process and normalize fetched data to be ready for forecasting model input." alt="" coords="5,29,140,71"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="train_model.Model.benchmark_model_on_test_data" name="train_model.Model.benchmark_model_on_test_data">
+<area shape="rect" id="node1" title="Trained model benchmark on test data." alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$namespacetrain__model.html#a46413ba900314a091387dc211b1cb16a" title="Normalize target value &#45; used by benchmark for the predicted and actual values." alt="" coords="249,5,384,47"/>
+</map>

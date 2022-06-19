@@ -1,0 +1,4 @@
+<map id="make_dataset.import_and_merge_data" name="make_dataset.import_and_merge_data">
+<area shape="rect" id="node1" title="Imports data from raw data directory preprocesses data, extracts features and generates data for mode..." alt="" coords="217,5,361,47"/>
+<area shape="rect" id="node2" href="$namespacemake__dataset.html#a1f8dffd0cfaf562d71f6df0c7ac8de15" title="Normalizes specified index columb." alt="" coords="5,5,169,47"/>
+</map>
