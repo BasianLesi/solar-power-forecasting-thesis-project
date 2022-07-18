@@ -78,7 +78,7 @@ The path below corresponds to virtual python environment named tensorflow:
 sudo vim /home/pi/tensorflow/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py
 ```
 replace  `np.prod(shape)` with `reduce_prod(shape)`, and \
-import `from tensorflow.math import reduce_prod` : the modified code should look like this:
+import `from tensorflow.python.ops.math_ops import reduce_prod` : the modified code should look like this:
 
 ```python
 from tensorflow.math import reduce_prod # we import this on top of the file
